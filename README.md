@@ -4,12 +4,14 @@ A Grocery List Management API documentation site.
 
 ## API Endpoints
 
-The following endpoints are documented for managing grocery lists:
+The following endpoints are available for managing grocery lists:
 
-- `GET /api/grocery-lists` - Retrieve user's grocery lists
-- `POST /api/grocery-lists` - Create a new grocery list
-- `PUT /api/grocery-lists/{id}` - Update an existing list
-- `DELETE /api/grocery-lists/{id}` - Remove a grocery list
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/grocery-lists` | Retrieve user's grocery lists |
+| POST | `/api/grocery-lists` | Create a new grocery list |
+| PUT | `/api/grocery-lists/{id}` | Update an existing list |
+| DELETE | `/api/grocery-lists/{id}` | Remove a grocery list |
 
 ## Authentication
 
